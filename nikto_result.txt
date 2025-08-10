@@ -1,0 +1,21 @@
+- Nikto v2.5.0
+---------------------------------------------------------------------------
++ Target IP:          127.0.0.1
++ Target Hostname:    127.0.0.1
++ Target Port:        8080
++ Start Time:         2025-08-07 20:12:30 (GMT5.5)
+---------------------------------------------------------------------------
++ Server: Jetty(12.0.19)
++ /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
++ /: Uncommon header 'x-hudson' found, with contents: 1.395.
++ /: Uncommon header 'x-jenkins' found, with contents: 2.504.2.
++ /: Uncommon header 'x-jenkins-session' found, with contents: f3bcc57b.
++ /gnIAUBbX.pl|dir: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ All CGI directories 'found', use '-C none' to test none
++ /favicon.ico: identifies this app/server as: Jenkins. See: https://en.wikipedia.org/wiki/Favicon
++ /error/HTTP_NOT_FOUND.html.var: Uncommon header 'x-instance-identity' found, with contents: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp62/Iyl7KJuqhDYzaOfjB4j32q9eT8HK2UTazNFOyg/D+9g6z3CNEH0PM+ztAwrtsBEgJu3SeKztjmaKCeKCfxKW0a+wjAYEeSkHfYgZAbXd7283PzLPkbYT9Gv0UaTKV2tKq3Q0+Tz5+UetVByi8gZtoFLj/uqNcc38s3fvcSj7zvxSW2k9ekQrUU8ChFdU/jg7f7VEFkihNmdV8OssMI8HpOs2V/Wz0BVA5vE/YIh/V2FTT+68ALQ8ecui0E3GSawbWTOLWZ5+OTnvqFDjw7ri3mTnmiCMTWTDAOdg8UIWEexwlVsmtvEEupZ/9Dv4FlaupYa4sletNlifSpGYDwIDAQAB.
++ /error/HTTP_NOT_FOUND.html.var: Uncommon header 'x-hudson-theme' found, with contents: default.
++ 26611 requests: 1 error(s) and 8 item(s) reported on remote host
++ End Time:           2025-08-07 20:12:51 (GMT5.5) (21 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
