@@ -19,8 +19,5 @@ nikto -h http://127.0.0.1:8080
 - 🔍 Server identifies as Jenkins via uncommon headers and favicon
 - 🧭 CGI directories detected
 
-## 📸 Screenshot
-*(Add screenshot here in `screenshots/nikto_scan.png`)*
-
 ## 📁 Output File
 See: [`nikto_result.txt`](nikto_result.txt)
